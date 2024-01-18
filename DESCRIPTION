@@ -1,0 +1,24 @@
+Package: conigpackages
+Title: Tools for Data Analysis and Visualization
+Version: 0.0.0.9000
+Authors@R: person("James", "Conigrave", email = "james.conigrave@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8816-6229"))
+Description: This package provides a suite of tools for efficient data analysis and visualization, integrating functionalities from 'revise', 'snipe', 'stop', and 'seeit' packages. It aims to simplify workflow for data scientists and researchers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Imports: 
+    revise,
+    snipe,
+    stop,
+    seeit,
+    metaKIN,
+    papaja
+Remotes:  
+    github::conig/revise,
+    github::conig/snipe,
+    github::conig/stop,
+    github::conig/seeit,
+    github::conig/metaKIN
+Depends:
+    R (>= 3.5.0)
